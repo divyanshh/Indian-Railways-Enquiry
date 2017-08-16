@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pnr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.divyanshjain.indianrailwaysenquiry.PNRStatus.PnrActivity"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date of journey"
+        android:id="@+id/dateOfJourney"
+        android:textColor="@color/colorAccent3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chart Prepared"
+        android:id="@+id/chartPrepared"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/dateOfJourney"
+        android:textColor="@color/colorAccent3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="From And To"
+        android:id="@+id/fromNTo"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/chartPrepared"
+        android:textColor="@color/colorAccent3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fromNTo"
+        android:layout_marginTop="10dp"
+        android:text="Boarding Point"
+        android:id="@+id/boardingPoint"
+        android:textColor="@color/colorAccent3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boardingPoint"
+        android:layout_marginTop="10dp"
+        android:text="Reservation Upto"
+        android:id="@+id/reservationUpto"
+        android:textColor="@color/colorAccent3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reservationUpto"
+        android:layout_marginTop="10dp"
+        android:text="Train"
+        android:id="@+id/train"
+        android:textColor="@color/colorAccent3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/train"
+        android:layout_marginTop="10dp"
+        android:text="Class"
+        android:id="@+id/classOfTravel"
+        android:textColor="@color/colorAccent3"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/classOfTravel"
+        android:layout_marginTop="10dp"
+        android:id="@+id/recyclerView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="?attr/background">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
+    tools:context="com.divyanshjain.indianrailwaysenquiry.LauncherActivity">
+
+    <Button
+        android:text="Live Train Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/button"
+        android:onClick="liveTrainStatus"
+        style="?attr/borderlessButtonStyle"
+        android:textColor="@color/colorAccent3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:text="PNR Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:onClick="pnrStatus"
+        style="?attr/borderlessButtonStyle"
+        android:textColor="@color/colorAccent3"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <Button
+        android:text="Train Route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="trainRoute"
+        style="?attr/borderlessButtonStyle"
+        android:textColor="@color/colorAccent3"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:textSize="20sp"/>
+
+    <Button
+        android:text="Train Between Stations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:onClick="trainBWStations"
+        style="?attr/borderlessButtonStyle"
+        android:textColor="@color/colorAccent3"
+        android:textSize="20sp"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

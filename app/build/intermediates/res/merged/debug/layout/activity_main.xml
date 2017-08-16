@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.divyanshjain.indianrailwaysenquiry.liveTrainStatus.MainActivity"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@drawable/back">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="train Position"
+        android:id="@+id/trainPosition"
+        android:textColor="@color/colorAccent3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="train number"
+        android:id="@+id/trainNumber"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/trainPosition"
+        android:textColor="@color/colorAccent3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="train name"
+        android:id="@+id/trainName"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/trainNumber"
+        android:textColor="@color/colorAccent3"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trainName"
+        android:layout_marginTop="10dp"
+        android:id="@+id/recyclerView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

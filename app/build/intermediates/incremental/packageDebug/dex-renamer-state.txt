@@ -1,0 +1,7 @@
+#Fri Aug 11 09:54:16 IST 2017
+base.0=/Users/divyanshjain/Desktop/WORK/IndianRailwaysEnquiry/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ddde244d636d63ed0c0da6e2634939b88e2fafb8
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/divyanshjain/Desktop/WORK/IndianRailwaysEnquiry/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_803b28d907aa5d4c94eb2999407e96fc2b4643b7/classes.dex
+base.1=/Users/divyanshjain/Desktop/WORK/IndianRailwaysEnquiry/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_803b28d907aa5d4c94eb2999407e96fc2b4643b7
+file.0=/Users/divyanshjain/Desktop/WORK/IndianRailwaysEnquiry/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ddde244d636d63ed0c0da6e2634939b88e2fafb8/classes.dex
